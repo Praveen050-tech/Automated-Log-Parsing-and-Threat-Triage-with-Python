@@ -6,7 +6,10 @@ As enterprise environments scale, security teams ingest massive volumes of text-
 2. Technical Architecture & Data Flow
 The automation suite operates as a real-time pipeline tracking append operations on a localized flat-file datastore:
 
-<img width="938" height="153" alt="image" src="https://github.com/user-attachments/assets/395a3856-1cb9-44df-86ff-3832c1d319be" />
+[ Active File Log Appends ] ──> [ Stateful I/O Stream Pointer ] ──> [ Regex Token Extraction ]
+                                                                             │
+                                                                             v
+[ Standardized SOC Alert ] <── [ Threshold Compliance Rule ] <── [ Statistical Aggregator ]
 
 3. Deployment & Implementation Steps
 Step 1: Environment Initialization
