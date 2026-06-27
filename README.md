@@ -143,9 +143,3 @@ Output:
       -> Rule ID: MSG_BRUTE_FORCE_SCANNING
       -> Action: Initiating Automated Incident Isolation Protocol.
     ----------------------------------------------------------------------
-
-
-Metric Vector,Observed Result Value,Risk Classification
-Target Host,10.0.0.99,Malicious Attacker Proxy
-Total Violations,4 Failed Connection Strings,Threshold Breach
-Attack Pattern,"Multi-port tracking (22, 23, 3389)",Vertical Scanning / Brute Force
