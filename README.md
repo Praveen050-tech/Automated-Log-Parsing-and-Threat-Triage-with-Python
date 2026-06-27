@@ -145,7 +145,7 @@ Output:
     ----------------------------------------------------------------------
 
 
-Telemetry Layer,Processing Strategy,Target Context
-Pre-Stored Log Baseline,Index Shifting (seek),Bypassed historical noise data
-Live Append Injections,Polling Loop (readline),Programmatic real-time extraction
-Anomalous Threshold,Counter Aggregation,High-Fidelity Alerting Triggered
+Metric Vector,Observed Result Value,Risk Classification
+Target Host,10.0.0.99,Malicious Attacker Proxy
+Total Violations,4 Failed Connection Strings,Threshold Breach
+Attack Pattern,"Multi-port tracking (22, 23, 3389)",Vertical Scanning / Brute Force
